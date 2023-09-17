@@ -1,5 +1,5 @@
 ---
-name: Ondiek Elijah
+name: Sandeep pilania
 avatar: /static/images/ondiek.png
 occupation: Software Engineer, Technical Writer & Community Advocate
 company:
@@ -35,6 +35,6 @@ During my years of professional development, I've been able to gain professional
 
 **Headless CMS:** Familiar with `Sanity` and `HygraphCMS` for flexible and scalable content management.
 
-**Technical Writing:** Last but not least, I'm a seasoned `technical writer`. I believe that the ability to communicate complex ideas in an understandable way is a vital skill for any developer. 
+**Technical Writing:** Last but not least, I'm a seasoned `technical writer`. I believe that the ability to communicate complex ideas in an understandable way is a vital skill for any developer.
 
 The world of tech is boundless and ever-evolving. I am committed to continuously learning, sharing, and growing alongside it. Looking forward to the journey ahead!
