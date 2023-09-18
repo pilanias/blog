@@ -6,6 +6,7 @@ import { currentDayName } from '@/lib/utils/dateUtils'
 export default function Footer() {
   return (
     <footer>
+      {/* Add Google Analytics script to the footer */}
       <div className="mt-10 mb-4 flex flex-col items-center justify-between md:flex-row">
         <div className="mb-3 flex space-x-4">
           <SocialIcon kind="github" href={siteMetadata.github} size="5" />
@@ -17,6 +18,17 @@ export default function Footer() {
           {siteMetadata.author} | Have a good {currentDayName()}!
         </div>
       </div>
+
+      {/* Google Analytics script */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4QQ0HZWMM3"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4QQ0HZWMM3');
+        `}
+      </script>
     </footer>
   )
 }
