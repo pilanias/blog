@@ -43,13 +43,42 @@ export default function Home({ posts }) {
               Let&#39;s TalkZ!{' '}
             </RoughNotation>
           </h1>
+          <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-700 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
+            A place where we talk about
+            <RoughNotation
+              type="underline"
+              show={true}
+              color="#CF5630"
+              animationDelay={2500}
+              animationDuration={600}
+            >
+              {' '}
+              finance
+            </RoughNotation>{' '}
+            and
+            <RoughNotation
+              type="underline"
+              show={true}
+              color="#D9DFF8"
+              animationDelay={3100}
+              animationDuration={500}
+            >
+              {' '}
+              future.
+            </RoughNotation>
+          </h2>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Welcome to my blog where I share my thoughts, reflections, and everything related to
-            software development and new technologies. Feel free to ask questions, make comments,
-            and share your thoughts.
-            <br />
-            Join the revolution, where opinions rule and boundaries don’t exist. Forget the ordinary
-            – let wild thoughts, laughter, and controversy take the throne.
+            Welcome to Let's TalkZ, your go-to destination for all things money, finance, and future
+            planning. Our mission is to empower individuals with the knowledge and resources they
+            need to make well-informed financial decisions. We're dedicated to delivering top-notch,
+            engaging content that combines information with entertainment.
+          </p>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            {' '}
+            Whether you're a seasoned investor looking to expand your portfolio or just embarking on
+            your financial journey, we invite you to be a part of our community at Let's TalkZ.
+            We're here to guide you through the intricate world of finance, helping you shape the
+            future you aspire to achieve. Join us today!
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
