@@ -1,19 +1,19 @@
 const siteMetadata = {
-  title: 'Ondiek Elijah',
-  author: 'Ondiek Elijah',
-  headerTitle: 'Dev Elie',
-  description: "Ondiek Elijah's personal blog",
+  title: 'Lets talkZ',
+  author: 'Sandeep pilania',
+  headerTitle: 'Lets talkZ',
+  description: 'A profisnol blog releted to software and tecnology',
   language: 'en-us',
-  theme: 'dark', // system, dark or light
-  siteUrl: 'https://www.ondiek-elijah.me/',
-  siteRepo: 'https://github.com/ondiekelijah/ondiek-elijah',
+  theme: 'system', // system, dark or light
+  siteUrl: 'https://letstalkz.com/',
+  //siteRepo: 'https://github.com/ondiekelijah/ondiek-elijah',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/ondiek.png',
+  image: '/static/images/Sandeep.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'eochieng9448@gmail.com',
-  github: 'https://github.com/ondiekelijah',
-  twitter: 'https://twitter.com/0ndiekElijah',
-  linkedin: 'https://www.linkedin.com/in/ondiek-elijah-2aaba4198/',
+  email: 'pilanias38@gmail.com',
+  github: 'https://github.com/pilanias',
+  twitter: 'https://twitter.com/0xPilania',
+  linkedin: 'https://www.linkedin.com/in/sandeep-pilania-78a744231/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -22,7 +22,7 @@ const siteMetadata = {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-4QQ0HZWMM3', // e.g. UA-000000-2 or G-XXXXXXX
     posthogAnalyticsId: '', // posthog.init e.g. phc_5yXvArzvRdqtZIsHkEm3Fkkhm3d0bEYUXCaFISzqPSQ
   },
   newsletter: {

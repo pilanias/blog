@@ -40,7 +40,7 @@ export default function Home({ posts }) {
               animationDelay={1400}
               animationDuration={1200}
             >
-              Let&#39;s TalkZ! 💬{' '}
+              Let&#39;s TalkZ!{' '}
             </RoughNotation>
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
