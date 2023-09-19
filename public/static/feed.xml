@@ -1,0 +1,16 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Lets talkZ</title>
+      <link>https://letstalkz.com//blog</link>
+      <description>A profisnol blog releted to software and tecnology</description>
+      <language>en-us</language>
+      <managingEditor>pilanias38@gmail.com (Sandeep pilania)</managingEditor>
+      <webMaster>pilanias38@gmail.com (Sandeep pilania)</webMaster>
+      <lastBuildDate>Tue, 19 Sep 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://letstalkz.com//feed.xml" rel="self" type="application/rss+xml"/>
+      
+  
+
+    </channel>
+  </rss>
