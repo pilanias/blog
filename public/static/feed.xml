@@ -10,7 +10,25 @@
       <lastBuildDate>Tue, 19 Sep 2023 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://letstalkz.com//feed.xml" rel="self" type="application/rss+xml"/>
       
-  
+  <item>
+    <guid>https://letstalkz.com//blog/fiest</guid>
+    <title>fiest</title>
+    <link>https://letstalkz.com//blog/fiest</link>
+    <description>testing</description>
+    <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
+    <author>pilanias38@gmail.com (Sandeep pilania)</author>
+    <category>hello</category>
+  </item>
+
+  <item>
+    <guid>https://letstalkz.com//blog/second</guid>
+    <title>second</title>
+    <link>https://letstalkz.com//blog/second</link>
+    <description>second test</description>
+    <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
+    <author>pilanias38@gmail.com (Sandeep pilania)</author>
+    <category>jkd</category>
+  </item>
 
     </channel>
   </rss>
