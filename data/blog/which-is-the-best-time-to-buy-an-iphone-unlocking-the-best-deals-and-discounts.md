@@ -43,6 +43,7 @@ As the year draws to a close, iPhone discounts remain relatively stable. However
 # Conclusion: The Best Time to Buy Your iPhone
 
 ![a lady on checkout](/static/images/blog/a-woman-on-cheakout.jpg)
+
 In conclusion, if your intention is to procure an iPhone while also saving your hard-earned money, the opportune moments are often during Republic Day sales in January and the grand sales events of [`Flipkart's Big Billion Days`](https://www.flipkart.com/home-bbd-intriuge-dhamaka-sale-pn-store) and [`Amazon's Great Indian Festival`](https://www.amazon.in/events/greatindianfestival) in September-October. These occasions offer the best chances of securing an iPhone at a significantly reduced price.
 
 So, when do you plan to make your next iPhone purchase? Share your thoughts in the comments below and let us know which discount window aligns with your preference. Happy iPhone hunting!
