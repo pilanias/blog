@@ -12,7 +12,6 @@ canonicalUrl:
 # Introduction
 
 In the midst of the buzz surrounding the new iPhone 15, one thing remains constant: the prices of older iPhone models tend to drop when a new one is released. Over the years, distinct trends have emerged, revealing the optimal times to purchase a new iPhone at a more budget-friendly price. In this article, we will delve into these trends, corroborated by price data from newspapers, Amazon, and Flipkart.
-![Apple logo on a big screen]()
 
 # When the Discounts Drop: A Year-Long Guide
 
