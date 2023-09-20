@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Lets talkZ',
   author: 'Sandeep pilania',
   headerTitle: 'Lets talkZ',
-  description: 'A profisnol blog releted to software and tecnology',
+  description: 'A professional blog related to finance and investment',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://letstalkz.com/',
