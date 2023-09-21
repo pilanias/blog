@@ -1,14 +1,13 @@
 import Script from 'next/script'
 
-const GAScript = () => {
-  // Replace 'YOUR_GOOGLE_ANALYTICS_ID' with your actual Google Analytics ID
-  const googleAnalyticsId = 'G-4QQ0HZWMM3'
+import siteMetadata from '@/data/siteMetadata'
 
+const GAScript = () => {
   return (
     <>
       <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${siteMetadata.analytics.googleAnalyticsId}`}
       />
 
       <Script strategy="lazyOnload" id="ga-script">
@@ -16,7 +15,8 @@ const GAScript = () => {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${googleAnalyticsId}', {page_path: window.location.pathname});
+            gtag('config', '${siteMetadata.analytics.googleAnalyticsId}',
+            {page_path: window.location.pathname,});
         `}
       </Script>
     </>
@@ -25,7 +25,7 @@ const GAScript = () => {
 
 export default GAScript
 
-// You can use logEvent function as is
+// https://developers.google.com/analytics/devguides/collection/gtagjs/events
 export const logEvent = (action, category, label, value) => {
   window.gtag?.('event', action, {
     event_category: category,
