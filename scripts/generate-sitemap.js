@@ -4,6 +4,14 @@ const matter = require('gray-matter')
 const prettier = require('prettier')
 const siteMetadata = require('../data/siteMetadata')
 
+// Function to format a date as YYYY-MM-DD
+function formatDate(date) {
+  const yyyy = date.getFullYear()
+  const mm = String(date.getMonth() + 1).padStart(2, '0')
+  const dd = String(date.getDate()).padStart(2, '0')
+  return `${yyyy}-${mm}-${dd}`
+}
+
 ;(async () => {
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
   const pages = await globby([
@@ -47,9 +55,15 @@ const siteMetadata = require('../data/siteMetadata')
                 if (page.search('pages/404.') > -1 || page.search(`pages/blog/[...slug].`) > -1) {
                   return
                 }
+
+                // Get the last modification time of the file and format it as a date string
+                const stat = fs.statSync(page)
+                const lastmodDate = formatDate(new Date(stat.mtime))
+
                 return `
                         <url>
                             <loc>${siteMetadata.siteUrl}${route}</loc>
+                            <lastmod>${lastmodDate}</lastmod>
                         </url>
                     `
               })
