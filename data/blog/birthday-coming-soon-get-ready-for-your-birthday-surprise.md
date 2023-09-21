@@ -45,13 +45,13 @@ Last but certainly not least, Baskin Robbins, the popular ice cream chain, has a
 
 To make it easier for you to choose the offers that suit your preferences, here's a handy comparison table of the birthday perks from these websites:
 
-| Company        | Type of Offer                                     | Discount Amount | Restrictions                               |
-| -------------- | ------------------------------------------------- | --------------- | ------------------------------------------ |
-| Titan          | Birthday Surprise                                 | Surprise Gift   | Details are a surprise!                    |
-| H&M            | 15% Off                                           | 15% off         | Applies to most items in the store.        |
-| Bata           | Up to Rs 750 Voucher                              | Up to Rs 750    | Can be used for shoes and other items.     |
-| TGIF           | 50% Off on Food and a Complimentary Birthday Cake | 50% off on food | Valid for dine-in, restrictions may apply. |
-| Baskin Robbins | Flat 25% Off                                      | 25% off         | Enjoy on a variety of ice cream flavors.   |
+| Company        | Type of Offer                                     | Discount Amount |
+| -------------- | ------------------------------------------------- | --------------- |
+| Titan          | Birthday Surprise                                 | Surprise Gift   |
+| H&M            | 15% Off                                           | 15% off         |
+| Bata           | Up to Rs 750 Voucher                              | Up to Rs 750    |
+| TGIF           | 50% Off on Food and a Complimentary Birthday Cake | 50% off on food |
+| Baskin Robbins | Flat 25% Off                                      | 25% off         |
 
 ## Conclusion
 
