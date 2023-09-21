@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'A professional blog related to finance and investment',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://letstalkz.com/',
+  siteUrl: 'https://letstalkz.com',
   //siteRepo: 'https://github.com/ondiekelijah/ondiek-elijah',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/Sandeep.png',
