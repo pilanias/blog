@@ -30,13 +30,13 @@ const CommonSEO = ({ title, description, ogType, ogImage, twImage, canonicalUrl 
       />
 
       {/* Include Google Analytics script here */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-45QQ0HZWMM3"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4QQ0HZWMM3"></script>
       <script>
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-45QQ0HZWMM3');
+          gtag('config', 'G-4QQ0HZWMM3');
         `}
       </script>
     </Head>
