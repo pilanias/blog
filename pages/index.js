@@ -23,16 +23,11 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-            <RoughNotation
-              type="underline"
-              show={true}
-              color="#FFb900"
-              animationDelay={800}
-              animationDuration={1200}
-            >
-              Hello World! 👋🏾{' '}
-            </RoughNotation>
-            <br /> Welcome to{' '}
+            Hello World! 👋🏾
+          </h1>
+          <img src="/static/images/main.jpg" alt="Image Description" />
+          <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-800 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
+            Welcome to{' '}
             <RoughNotation
               type="underline"
               show={true}
@@ -42,30 +37,10 @@ export default function Home({ posts }) {
             >
               Let&#39;s TalkZ!{' '}
             </RoughNotation>
-          </h1>
-          <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-700 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
-            A place where we talk about
-            <RoughNotation
-              type="underline"
-              show={true}
-              color="#CF5630"
-              animationDelay={2500}
-              animationDuration={600}
-            >
-              {' '}
-              finance
-            </RoughNotation>{' '}
-            and
-            <RoughNotation
-              type="underline"
-              show={true}
-              color="#D9DFF8"
-              animationDelay={3100}
-              animationDuration={500}
-            >
-              {' '}
-              future.
-            </RoughNotation>
+          </h2>
+
+          <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-600 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
+            A place where we talk about finance and future.
           </h2>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Welcome to Let's TalkZ, your go-to destination for all things money, finance, and future
