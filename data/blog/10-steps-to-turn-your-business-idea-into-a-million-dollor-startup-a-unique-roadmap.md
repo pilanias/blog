@@ -6,7 +6,7 @@ draft: false
 summary: This article provides a unique roadmap for transforming your business idea into a thriving startup. It highlights 10 unconventional steps inspired by the success of unconventional startups, such as Airbnb, Amazon, Apple, SpaceX, Google, Facebook, and Uber.
 images: []
 layout: PostLayout
-canonicalUrl: https:letstalkz.com/blog/10-steps-to-turn-your-business-idea-into-a-million-dollor-startup-a-unique-roadmap
+canonicalUrl:
 ---
 
 ![guide for sucessful business](/static/images/blog/business/guide-for-sucessful-business.jpg)
