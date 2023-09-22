@@ -9,38 +9,38 @@ layout: PostLayout
 canonicalUrl:
 ---
 
-# Introduction
+## Introduction
 
 In the midst of the buzz surrounding the new iPhone 15, one thing remains constant: the prices of older iPhone models tend to drop when a new one is released. Over the years, distinct trends have emerged, revealing the optimal times to purchase a new iPhone at a more budget-friendly price. In this article, we will delve into these trends, corroborated by price data from newspapers, Amazon, and Flipkart.
 ![Apple logo on a big screen](/static/images/blog/apple_logo_on_big_screen.jpg)
 
-# When the Discounts Drop: A Year-Long Guide
+## When the Discounts Drop: A Year-Long Guide
 
-## 1. January - Republic Day Sales (`15-20% Off`)
+### 1. January - Republic Day Sales (`15-20% Off`)
 
 The iPhone market experiences its initial price decline shortly after the launch of the latest model, usually in September. By January, substantial discounts are in store during Republic Day sales. This presents a prime opportunity to acquire a new iPhone at a wallet-friendly price.
 
-## 2. May - A Brief Bargain (`10-15% Off`)
+### 2. May - A Brief Bargain (`10-15% Off`)
 
 ![Waiting for sale](/static/images/blog/waiting-for-sale.jpg)
 
 Come May, another price drop is discernible, albeit a transient one. Discounts ranging from `10% to 15%` are on offer for a few days. While not as substantial as January markdowns, it's still a noteworthy consideration if you're in the market for a new iPhone.
 
-## 3. September - New Model Launch (`10-15% Off`)
+### 3. September - New Model Launch (`10-15% Off`)
 
 With the introduction of the newest iPhone models in September, prices dip for the preceding generation. This reduction can range from `10% to 15%`, making it an excellent time to acquire a recent iPhone without depleting your savings.
 
-## 4. September-October - Festive Season Extravaganza (`20-25% Off`)
+### 4. September-October - Festive Season Extravaganza (`20-25% Off`)
 
 The most significant discounts, ranging from `20% to 25%`, are typically unleashed during the festive season sales, exemplified by Flipkart's Big Billion Days and Amazon's Great Indian Festival. These sales occur in September-October, but for a limited duration. Purchasing an iPhone during these sales is like to `winning the lottery due to the substantial price reductions`.
 
 ![Flipkart's Big Billion Days and Amazon's Great Indian Festival sale](/static/images/blog/sale.webp)
 
-## 5. Year-End: Steady Prices
+### 5. Year-End: Steady Prices
 
 As the year draws to a close, iPhone discounts remain relatively stable. However, as January of the following year approaches, the cycle of declining prices resumes.
 
-# Conclusion: The Best Time to Buy Your iPhone
+## Conclusion: The Best Time to Buy Your iPhone
 
 ![a lady on checkout](/static/images/blog/a-woman-on-cheakout.jpg)
 
