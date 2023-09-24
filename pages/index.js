@@ -5,7 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import { RoughNotation } from 'react-rough-notation'
-
+import Image from 'next/image'
 import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 5
@@ -25,7 +25,13 @@ export default function Home({ posts }) {
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
             Hello World! 👋🏾
           </h1>
-          <img src="/static/images/main.jpg" alt="Image Description" />
+          <Image
+            src="/static/images/main.jpg"
+            alt="let's talkZ"
+            layout="responsive" // Set layout to "responsive"
+            width={1200} // Set the desired width (this can be any large width since it's responsive)
+            height={600} // Set the desired height (this can be any large height since it's responsive)
+          />
           <h2 className="text-2xl font-bold leading-9 tracking-tight text-gray-800 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14">
             Welcome to{' '}
             <RoughNotation
