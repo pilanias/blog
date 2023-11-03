@@ -7,49 +7,31 @@ import formatDate from '@/lib/utils/formatDate'
 import { RoughNotation } from 'react-rough-notation'
 import Image from 'next/image'
 import NewsletterForm from '@/components/NewsletterForm'
+import ListLayout from '@/layouts/ListLayout'
 
-import Card from '@/components/Card'
-
-const MAX_DISPLAY = 10
+export const POSTS_PER_PAGE = 6
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
+  console.log('allPosts:', posts)
+  const initialDisplayPosts = posts.slice(0, POSTS_PER_PAGE)
+  const pagination = {
+    currentPage: 1,
+    totalPages: Math.ceil(posts.length / POSTS_PER_PAGE),
+  }
 
-  return { props: { posts } }
+  return { props: { initialDisplayPosts, posts, pagination } }
 }
 
-export default function Home({ posts }) {
+export default function Blog({ posts, initialDisplayPosts, pagination }) {
   return (
     <>
-      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Projects
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Hello, I see you. Here's a sample of my most recent projects.
-          </p>
-        </div>
-        <div className="container py-12">
-          <div className="-m-4 flex flex-wrap">
-            {!posts.length && 'No posts found.'}
-            {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-              const { slug, shortsummary, title, date, image } = frontMatter
-              return (
-                <Card
-                  key={title}
-                  title={title}
-                  description={shortsummary}
-                  imgSrc={image}
-                  href={'/blog/' + slug}
-                  date={date}
-                />
-              )
-            })}
-          </div>
-        </div>
-      </div>
+      <PageSEO
+        title={`Lets TalkZ - ${siteMetadata.author}`}
+        description={siteMetadata.description}
+      />
+      <ListLayout posts={posts} initialDisplayPosts={initialDisplayPosts} pagination={pagination} />
+      <NewsletterForm />
     </>
   )
 }

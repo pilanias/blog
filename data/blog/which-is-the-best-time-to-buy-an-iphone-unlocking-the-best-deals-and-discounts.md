@@ -4,7 +4,8 @@ date: '2023-09-20'
 tags: ['iPhone', 'shopping guide', 'sale']
 draft: false
 summary: The best time to buy an iPhone is during the Flipkart Big Billion Days and Amazon Great Indian Festival sales in September-October. However, you can still get a good deal on an iPhone during Republic Day sales in January or when the new iPhone models come out in September.
-images: []
+shortsummary: The best time to buy an iPhone is during the Flipkart Big Billion Days and Amazon Great Indian Festival sales in September-October....
+image: '/static/images/blog/apple_logo_on_big_screen.jpg'
 layout: PostLayout
 canonicalUrl:
 ---

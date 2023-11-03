@@ -4,7 +4,8 @@ date: '2023-09-20'
 tags: ['car Insurance']
 draft: false
 summary: Before hitting the gas pedal, make sure your car insurance policy is armed with these indispensable add-ons!
-images: []
+shortsummary: Before hitting the gas pedal, make sure your car insurance policy is armed with these indispensable add-ons!
+image: '/static/images/blog/car_insurance/insurance.jpg'
 layout: PostLayout
 canonicalUrl:
 ---

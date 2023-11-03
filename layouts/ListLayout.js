@@ -4,6 +4,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { useState } from 'react'
 import Pagination from '@/components/Pagination'
 import formatDate from '@/lib/utils/formatDate'
+import Image from 'next/image'
 
 export default function ListLayout({ posts, title, initialDisplayPosts = [], pagination }) {
   const [searchValue, setSearchValue] = useState('')
@@ -47,34 +48,68 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             </svg>
           </div>
         </div>
-        <ul>
+        <ul className="flex flex-wrap">
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
+            const { slug, date, title, shortsummary, tags, image } = frontMatter
+            const imgSrc = image
+            const href = '/blog/' + slug
             return (
-              <li key={slug} className="py-4">
-                <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+              <li key={slug} className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
+                <article
+                  className={`${
+                    imgSrc && 'h-full'
+                  }  overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 transition-transform duration-500 ease-in-out hover:scale-105 dark:border-gray-700`}
+                >
                   <dl>
-                    <dt className="sr-only">Published on</dt>
-                    <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                      <time dateTime={date}>{formatDate(date)}</time>
-                    </dd>
+                    {imgSrc &&
+                      (href ? (
+                        <Link href={href} aria-label={`Link to ${title}`}>
+                          <Image
+                            alt={title}
+                            src={imgSrc}
+                            className="object-cover object-center md:h-36 lg:h-48 "
+                            width={1544}
+                            height={706}
+                            priority
+                          />
+                        </Link>
+                      ) : (
+                        <Image
+                          alt={title}
+                          src={imgSrc}
+                          className="object-cover object-center md:h-36 lg:h-48"
+                          width={1544}
+                          height={306}
+                        />
+                      ))}
                   </dl>
-                  <div className="space-y-3 xl:col-span-3">
+                  <div className="m-2 space-y-3 xl:col-span-3">
                     <div>
-                      <h3 className="text-2xl font-bold leading-8 tracking-tight">
-                        <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
+                      <h2 className="text-2xl font-bold leading-8 tracking-tight">
+                        <Link href={href} className="text-gray-900 dark:text-gray-100">
                           {title}
                         </Link>
-                      </h3>
+                      </h2>
                       <div className="flex flex-wrap">
-                        {tags.map((tag) => (
-                          <Tag key={tag} text={tag} />
-                        ))}
+                        <Link
+                          className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400"
+                          aria-label={`Link to ${date}`}
+                        >
+                          {date}
+                        </Link>
                       </div>
                     </div>
                     <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                      {summary}
+                      {shortsummary}
+                    </div>
+                    <div className="flex flex-wrap">
+                      <Link
+                        className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                        aria-label={`Link to ${title}`}
+                      >
+                        Learn more &rarr;
+                      </Link>
                     </div>
                   </div>
                 </article>

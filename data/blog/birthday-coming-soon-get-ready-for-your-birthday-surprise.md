@@ -4,7 +4,8 @@ date: '2023-09-21'
 tags: ['Birthday', 'Discounts', 'vouchers']
 draft: false
 summary: We will explore five websites that give birthday discounts and vouchers. So, get ready to be surprised on your special day by signing up on these websites!
-images: []
+shortsummary: We will explore five websites that give birthday discounts and vouchers. So, get ready to be surprised on your special day by signing up on these websites!
+image: '/static/images/blog/birthday/discount.jpg'
 layout: PostLayout
 canonicalUrl:
 ---

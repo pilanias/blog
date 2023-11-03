@@ -4,7 +4,8 @@ date: '2023-09-24'
 tags: ['finance', 'businesses']
 draft: false
 summary: Embedded finance is a recent finance trend that is rapidly gaining traction. It refers to the integration of financial services into non-financial products and experiences. Learn more about the benefits of embedded finance for businesses and consumers, as well as how businesses can leverage embedded finance to achieve their goals.
-images: []
+shortsummary: Embedded finance is a recent finance trend that is rapidly gaining traction. It refers to the integration of financial services ...
+image: '/static/images/blog/embedded-finance/man.jpg'
 layout: PostLayout
 canonicalUrl:
 ---
