@@ -1,5 +1,5 @@
 ---
-title: Exploring Monetary Waters: Uncovering the Advantages of DCU Bank Account Financing Costs
+title: Exploring Monetary Waters | Uncovering the Advantages of DCU Bank Account Financing Costs
 
 date: '2023-11-22'
 
