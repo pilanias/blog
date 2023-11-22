@@ -1,5 +1,5 @@
 ---
-title: Supporting Monetary Wellbeing: Investigating the Advantages of a Bank of America Wellbeing Bank account
+title: Supporting Monetary Wellbeing | Investigating the Advantages of a Bank of America Wellbeing Bank account
 
 date: '2023-11-22'
 
@@ -16,7 +16,6 @@ shortsummary: Explore the comprehensive benefits of a Bank of America Wellbeing 
 layout: PostLayout
 
 canonicalUrl: https://letstalkz.com/blog/supporting-monetary-wellbeing-investigating-the-advantages-of-a-bank-of-america-wellbeing-bank-account
-
 ---
 
 ![Finance](/static/images/blog/supporting-monetary-wellbeing-investigating-the-advantages-of-a-bank-of-america-wellbeing-bank-account/cover.png)
