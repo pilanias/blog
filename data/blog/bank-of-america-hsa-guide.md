@@ -1,5 +1,5 @@
 ---
-title: Navigating Wellness Finances: The Ultimate Guide to Bank of America Health Savings Accounts in 2023
+title: Navigating Wellness Finances | The Ultimate Guide to Bank of America Health Savings Accounts in 2023
 
 date: '2023-12-02'
 
